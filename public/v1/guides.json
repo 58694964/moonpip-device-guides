@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 5,
+  "contentVersion": 6,
   "updatedAt": "2026-11-15",
   "brands": [
     {
@@ -13,8 +13,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "能找到「我的 Fire TV」",
-            "en": "If you see My Fire TV"
+            "zh-Hans": "通过「我的 Fire TV」开启",
+            "en": "Using My Fire TV"
           },
           "steps": [
             {
@@ -49,17 +49,17 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "43D1200B：能找到「Network debugging」",
-            "en": "43D1200B: Network debugging"
+            "zh-Hans": "开启网络调试",
+            "en": "Enable network debugging"
           },
           "steps": [
             {
-              "zh-Hans": "在「关于」中连续点击 Build 7 次。",
-              "en": "In About, select Build seven times."
+              "zh-Hans": "在电视「设置」中打开「关于」，找到「内部版本号 / Build」，连续按确认键 7 次。",
+              "en": "In your TV’s Settings, open About, select Build and press OK seven times."
             },
             {
-              "zh-Hans": "进入「开发者选项」，开启「Network debugging」。",
-              "en": "Open Developer options and enable Network debugging."
+              "zh-Hans": "返回设置，进入「开发者选项」，开启「网络调试 / Network debugging」。",
+              "en": "Return to Settings, open Developer options and enable Network debugging."
             }
           ],
           "notes": [
@@ -81,8 +81,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "能找到「本机信息」",
-            "en": "If you see Device information"
+            "zh-Hans": "通过「本机信息」开启",
+            "en": "Using Device information"
           },
           "steps": [
             {
@@ -117,17 +117,17 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
@@ -144,8 +144,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "开启开发者选项",
+            "en": "Enable developer options"
           },
           "steps": [
             {
@@ -157,8 +157,8 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
@@ -180,17 +180,17 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
@@ -207,8 +207,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "通过电视机身的「信号源」键开启",
-            "en": "Using the Source button on the TV"
+            "zh-Hans": "通过机身「信号源」键开启",
+            "en": "Using the TV’s Source button"
           },
           "steps": [
             {
@@ -241,10 +241,24 @@
       },
       "sections": [
         {
+          "id": "choice",
+          "title": {
+            "zh-Hans": "选择开启方法",
+            "en": "Choose a setup method"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "请根据电视设置中实际显示的选项，选择适合你实际情况的方法，按以下步骤操作。",
+              "en": "Check the options shown in your TV’s settings, choose the method that matches your setup, and follow the steps below."
+            }
+          ]
+        },
+        {
           "id": "main",
           "title": {
-            "zh-Hans": "E3-Pro / 27GX：通过「声音平衡」开启",
-            "en": "E3-Pro / 27GX: using Sound balance"
+            "zh-Hans": "方法一：通过「声音平衡」开启",
+            "en": "Method 1: Using Sound balance"
           },
           "steps": [
             {
@@ -270,6 +284,10 @@
           ],
           "notes": [
             {
+              "zh-Hans": "此工厂菜单方法仅适用于 E3-Pro / 27GX；其他型号请先查看另一种方法，勿照改工厂参数。",
+              "en": "This factory-menu method is for E3-Pro / 27GX only. For other models, check the alternative method first; do not copy these factory settings."
+            },
+            {
               "zh-Hans": "27GX 的声音平衡位于「全部设置」；原生设置从「关于」→「本机信息」连续按菜单进入。",
               "en": "On 27GX, Balance is under All settings. Open Android settings by pressing Menu repeatedly in About → Device information."
             },
@@ -286,8 +304,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "方法二：能找到「内部版本号 / Build」",
+            "en": "Method 2: Build is available"
           },
           "steps": [
             {
@@ -299,8 +317,8 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
@@ -308,17 +326,17 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
@@ -335,8 +353,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "通过电视机身的「信号源」键开启",
-            "en": "Using the Source button on the TV"
+            "zh-Hans": "通过机身「信号源」键开启",
+            "en": "Using the TV’s Source button"
           },
           "steps": [
             {
@@ -371,8 +389,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "MK32CS1NB：通过信号源菜单开启",
-            "en": "MK32CS1NB: using the input menu"
+            "zh-Hans": "通过信号源菜单开启",
+            "en": "Using the input source menu"
           },
           "steps": [
             {
@@ -396,6 +414,10 @@
             {
               "zh-Hans": "开启调试后可能暂时无法使用 USB 外设。只修改 ADB 开关。",
               "en": "USB peripherals may be unavailable while debugging is enabled. Change only the ADB switch."
+            },
+            {
+              "zh-Hans": "仅在菜单与你的电视一致时使用此方法；只修改 ADB 开关，不操作其他工厂设置。",
+              "en": "Use this method only if your TV shows the same menus. Change only the ADB switch, not other factory settings."
             }
           ]
         }
@@ -409,10 +431,24 @@
       },
       "sections": [
         {
+          "id": "choice",
+          "title": {
+            "zh-Hans": "选择开启方法",
+            "en": "Choose a setup method"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "请根据电视设置中实际显示的选项，选择适合你实际情况的方法，按以下步骤操作。",
+              "en": "Check the options shown in your TV’s settings, choose the method that matches your setup, and follow the steps below."
+            }
+          ]
+        },
+        {
           "id": "main",
           "title": {
-            "zh-Hans": "Streaming Box 8000：开启网络调试",
-            "en": "Streaming Box 8000: enable network debugging"
+            "zh-Hans": "方法一：已有「开发者选项」",
+            "en": "Method 1: Developer options is already available"
           },
           "steps": [
             {
@@ -430,8 +466,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "方法二：能找到「内部版本号 / Build」",
+            "en": "Method 2: Build is available"
           },
           "steps": [
             {
@@ -461,8 +497,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "能找到「设备型号」",
-            "en": "If you see Device model"
+            "zh-Hans": "通过「设备型号」开启",
+            "en": "Using Device model"
           },
           "steps": [
             {
@@ -495,10 +531,24 @@
       },
       "sections": [
         {
+          "id": "choice",
+          "title": {
+            "zh-Hans": "选择开启方法",
+            "en": "Choose a setup method"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "请根据电视设置中实际显示的选项，选择适合你实际情况的方法，按以下步骤操作。",
+              "en": "Check the options shown in your TV’s settings, choose the method that matches your setup, and follow the steps below."
+            }
+          ]
+        },
+        {
           "id": "main",
           "title": {
-            "zh-Hans": "能找到「产品型号」",
-            "en": "If you see Product model"
+            "zh-Hans": "方法一：能找到「产品型号」",
+            "en": "Method 1: Product model is available"
           },
           "steps": [
             {
@@ -520,8 +570,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "方法二：能找到「内部版本号 / Build」",
+            "en": "Method 2: Build is available"
           },
           "steps": [
             {
@@ -533,8 +583,8 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
@@ -542,17 +592,17 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
@@ -569,8 +619,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "开启开发者选项",
+            "en": "Enable developer options"
           },
           "steps": [
             {
@@ -582,40 +632,26 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
         },
         {
-          "id": "variation",
-          "title": {
-            "zh-Hans": "如果没有「USB 调试」或「网络调试」",
-            "en": "If USB debugging or Network debugging is unavailable"
-          },
-          "steps": [],
-          "notes": [
-            {
-              "zh-Hans": "查看「开发者选项」中是否有「无线调试」。如果有，开启后查看是否提供配对码入口。",
-              "en": "Look for Wireless debugging in Developer options. If available, enable it and check whether it offers pairing codes."
-            }
-          ]
-        },
-        {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
@@ -632,8 +668,8 @@
         {
           "id": "main",
           "title": {
-            "zh-Hans": "TP.SK708D.PC821：通过信号源菜单开启",
-            "en": "TP.SK708D.PC821: using the input menu"
+            "zh-Hans": "通过信号源菜单开启",
+            "en": "Using the input source menu"
           },
           "steps": [
             {
@@ -653,6 +689,10 @@
             {
               "zh-Hans": "此菜单不能从电视桌面直接打开。只修改 ADB 开关，不操作其他工厂选项。",
               "en": "This menu cannot be opened directly from the launcher. Change only the ADB switch, not other factory options."
+            },
+            {
+              "zh-Hans": "仅在菜单与你的电视一致时使用此方法；只修改 ADB 开关，不操作其他工厂设置。",
+              "en": "Use this method only if your TV shows the same menus. Change only the ADB switch, not other factory settings."
             }
           ]
         }
@@ -666,10 +706,24 @@
       },
       "sections": [
         {
+          "id": "choice",
+          "title": {
+            "zh-Hans": "选择开启方法",
+            "en": "Choose a setup method"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "请根据电视设置中实际显示的选项，选择适合你实际情况的方法，按以下步骤操作。",
+              "en": "Check the options shown in your TV’s settings, choose the method that matches your setup, and follow the steps below."
+            }
+          ]
+        },
+        {
           "id": "main",
           "title": {
-            "zh-Hans": "能找到「本机信息」",
-            "en": "If you see Device information"
+            "zh-Hans": "方法一：能找到「本机信息」",
+            "en": "Method 1: Device information is available"
           },
           "steps": [
             {
@@ -690,8 +744,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "方法二：能找到「内部版本号 / Build」",
+            "en": "Method 2: Build is available"
           },
           "steps": [
             {
@@ -703,8 +757,8 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
@@ -712,16 +766,20 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果只有「无线调试」",
-            "en": "If you only see Wireless debugging"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
-          "steps": [],
-          "notes": [
+          "steps": [
             {
-              "zh-Hans": "开启「无线调试」，查看是否有「使用配对码配对设备」选项。如果有，请开启下方「配对设备」开关，再点击「连接」，按提示完成配对。",
-              "en": "Enable Wireless debugging and look for Pair device with pairing code. If it is available, turn on Pair device below, then tap Connect and follow the pairing instructions."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
-          ]
+          ],
+          "notes": []
         }
       ]
     },
@@ -733,10 +791,24 @@
       },
       "sections": [
         {
+          "id": "choice",
+          "title": {
+            "zh-Hans": "选择开启方法",
+            "en": "Choose a setup method"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "请根据电视设置中实际显示的选项，选择适合你实际情况的方法，按以下步骤操作。",
+              "en": "Check the options shown in your TV’s settings, choose the method that matches your setup, and follow the steps below."
+            }
+          ]
+        },
+        {
           "id": "main",
           "title": {
-            "zh-Hans": "E3-Pro / 27GX：通过「声音平衡」开启",
-            "en": "E3-Pro / 27GX: using Sound balance"
+            "zh-Hans": "方法一：通过「声音平衡」开启",
+            "en": "Method 1: Using Sound balance"
           },
           "steps": [
             {
@@ -762,6 +834,10 @@
           ],
           "notes": [
             {
+              "zh-Hans": "此工厂菜单方法仅适用于 E3-Pro / 27GX；其他型号请先查看另一种方法，勿照改工厂参数。",
+              "en": "This factory-menu method is for E3-Pro / 27GX only. For other models, check the alternative method first; do not copy these factory settings."
+            },
+            {
               "zh-Hans": "27GX 的声音平衡位于「全部设置」；原生设置从「关于」→「本机信息」连续按菜单进入。",
               "en": "On 27GX, Balance is under All settings. Open Android settings by pressing Menu repeatedly in About → Device information."
             },
@@ -778,8 +854,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "方法二：能找到「内部版本号 / Build」",
+            "en": "Method 2: Build is available"
           },
           "steps": [
             {
@@ -791,8 +867,8 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
@@ -800,17 +876,17 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
@@ -825,10 +901,24 @@
       },
       "sections": [
         {
+          "id": "choice",
+          "title": {
+            "zh-Hans": "选择开启方法",
+            "en": "Choose a setup method"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "请根据电视设置中实际显示的选项，选择适合你实际情况的方法，按以下步骤操作。",
+              "en": "Check the options shown in your TV’s settings, choose the method that matches your setup, and follow the steps below."
+            }
+          ]
+        },
+        {
           "id": "main",
           "title": {
-            "zh-Hans": "能找到「产品型号」",
-            "en": "If you see Product model"
+            "zh-Hans": "方法一：能找到「产品型号」",
+            "en": "Method 1: Product model is available"
           },
           "steps": [
             {
@@ -850,8 +940,8 @@
         {
           "id": "android",
           "title": {
-            "zh-Hans": "能找到「内部版本号 / Build」",
-            "en": "If you see Build"
+            "zh-Hans": "方法二：能找到「内部版本号 / Build」",
+            "en": "Method 2: Build is available"
           },
           "steps": [
             {
@@ -863,8 +953,8 @@
               "en": "Select Build repeatedly until developer mode is enabled."
             },
             {
-              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
-              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+              "zh-Hans": "返回「开发者选项」。有「USB 调试」或「网络调试」时，开启对应开关；只有「无线调试」时，开启后查看是否有「使用配对码配对设备」，有则按下方配对说明操作。",
+              "en": "Return to Developer options. Enable USB debugging or Network debugging if shown. If only Wireless debugging is available, enable it and look for Pair device with pairing code; if present, follow the pairing instructions below."
             }
           ],
           "notes": []
@@ -872,17 +962,17 @@
         {
           "id": "pair",
           "title": {
-            "zh-Hans": "如果有「使用配对码配对设备」",
-            "en": "If you see Pair device with pairing code"
+            "zh-Hans": "需要配对时",
+            "en": "If pairing is required"
           },
           "steps": [
             {
-              "zh-Hans": "开启电视的「无线调试」，进入「使用配对码配对设备」。",
-              "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
+              "zh-Hans": "在电视上打开「无线调试」→「使用配对码配对设备」，保持该页面打开。",
+              "en": "On your TV, open Wireless debugging → Pair device with pairing code. Keep that page open."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，填写电视显示的配对端口和六位配对码，再点击底部「连接」。",
+              "en": "Turn on Pair device below. Enter the pairing port and six-digit code shown on your TV, then tap Connect at the bottom."
             }
           ],
           "notes": []
