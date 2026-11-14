@@ -14,3 +14,7 @@ Run `pip install -r requirements.txt` then `python scripts/validate.py`. Before 
 GitHub Pages is public and CDN-cached. Verify deployment with a GET, save ETag, then GET again with If-None-Match; expect 304 when supported. The client falls back to Last-Modified or a normal GET plus content comparison. Publishing may take time; do not promise instant propagation.
 
 Published at https://58694964.github.io/moonpip-device-guides/v1/guides.json . Verified GET 200 and conditional GET 304 on 2026-11-15; client simulator cached the catalog and observed an unchanged response.
+
+## Content version 3
+
+Name methods after visible TV menus; retain model limits for device-specific procedures. Do not include shared fallback (`missing`) or authorization (`permission`) sections. Those belong to the app. Only `other` may have an empty sections array. Older clients that require a method for Other reject v3 and keep their valid fallback; ship the updated decoder with the v3 bundle. Source evidence stays in the app project's research documents.

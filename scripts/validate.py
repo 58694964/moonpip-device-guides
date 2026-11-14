@@ -10,6 +10,8 @@ ids = [b['id'] for b in data['brands']]
 assert len(set(ids)) == len(ids) and ids.count('other') == 1, 'Duplicate IDs or missing Other'
 for brand in data['brands']:
     sections = brand['sections']
+    assert brand['id'] == 'other' or sections, 'Named brands require methods'
+    assert not any(s['id'] in ('missing', 'permission') for s in sections), 'Shared app guidance must not be distributed'
     assert len({s['id'] for s in sections}) == len(sections), 'Duplicate section ID'
     for section in sections:
         assert section['steps'] or section['notes'], 'Empty section'

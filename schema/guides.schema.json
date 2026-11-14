@@ -42,7 +42,7 @@
           },
           "sections": {
             "type": "array",
-            "minItems": 1,
+            "minItems": 0,
             "maxItems": 30,
             "items": {
               "type": "object",
@@ -78,7 +78,25 @@
               }
             }
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "id": {
+                  "const": "other"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "sections": {
+                  "minItems": 1
+                }
+              }
+            }
+          }
+        ]
       }
     }
   },
