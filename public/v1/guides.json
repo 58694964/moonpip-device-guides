@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "updatedAt": "2026-11-15",
   "brands": [
     {
@@ -65,9 +65,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -128,9 +125,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/artel-43d1200b/README.md"
       ]
     },
     {
@@ -227,10 +221,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/tcl-mt9655-cn.md"
       ]
     },
     {
@@ -332,10 +322,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md",
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
       ]
     },
     {
@@ -400,9 +386,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
       ]
     },
     {
@@ -533,10 +516,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -601,9 +580,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
       ]
     },
     {
@@ -672,9 +648,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/docs/devices/mtek-mk32cs1nb.md"
       ]
     },
     {
@@ -758,10 +731,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/nokia-streaming-box-8000/README.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -826,10 +795,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/oppo-coloros-tv.md",
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
       ]
     },
     {
@@ -940,10 +905,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -1045,10 +1006,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -1113,9 +1070,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/super-general-cvte-t972/README.md"
       ]
     },
     {
@@ -1243,12 +1197,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/tcl-mt9655-cn.md",
-        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/tcl-65c7l-google-tv/README.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -1379,10 +1327,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -1493,10 +1437,6 @@
             }
           ]
         }
-      ],
-      "sourceURLs": [
-        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
-        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
       ]
     },
     {
@@ -1561,8 +1501,7 @@
             }
           ]
         }
-      ],
-      "sourceURLs": []
+      ]
     }
   ]
 }
