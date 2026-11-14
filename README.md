@@ -13,4 +13,4 @@ Run `pip install -r requirements.txt` then `python scripts/validate.py`. Before 
 
 GitHub Pages is public and CDN-cached. Verify deployment with a GET, save ETag, then GET again with If-None-Match; expect 304 when supported. The client falls back to Last-Modified or a normal GET plus content comparison. Publishing may take time; do not promise instant propagation.
 
-Current status: prepared locally; repository owner, remote URL and actual Pages deployment still need confirmation.
+Published at https://58694964.github.io/moonpip-device-guides/v1/guides.json . Verified GET 200 and conditional GET 304 on 2026-11-15; client simulator cached the catalog and observed an unchanged response.
