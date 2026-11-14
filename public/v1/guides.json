@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 4,
+  "contentVersion": 5,
   "updatedAt": "2026-11-15",
   "brands": [
     {
@@ -126,8 +126,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
@@ -189,8 +189,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
@@ -317,8 +317,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
@@ -551,8 +551,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
@@ -614,8 +614,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
@@ -718,8 +718,8 @@
           "steps": [],
           "notes": [
             {
-              "zh-Hans": "开启「无线调试」，查看是否有「使用配对码配对设备」选项。如果有，请开启下方「配对设备」开关，再点击「开始连接」，按提示完成配对。",
-              "en": "Enable Wireless debugging and look for Pair device with pairing code. If it is available, turn on Pair device below, then tap Start connection and follow the pairing instructions."
+              "zh-Hans": "开启「无线调试」，查看是否有「使用配对码配对设备」选项。如果有，请开启下方「配对设备」开关，再点击「连接」，按提示完成配对。",
+              "en": "Enable Wireless debugging and look for Pair device with pairing code. If it is available, turn on Pair device below, then tap Connect and follow the pairing instructions."
             }
           ]
         }
@@ -809,8 +809,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
@@ -881,8 +881,8 @@
               "en": "Enable Wireless debugging on your TV, then open Pair device with pairing code."
             },
             {
-              "zh-Hans": "开启下方「配对设备」开关，再点「开始连接」，按提示填写电视显示的配对信息。",
-              "en": "Turn on Pair device below, then tap Start connection and enter the pairing details shown on your TV."
+              "zh-Hans": "开启下方「配对设备」开关，再点「连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Connect and enter the pairing details shown on your TV."
             }
           ],
           "notes": []
