@@ -1,0 +1,1568 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "updatedAt": "2026-11-15",
+  "brands": [
+    {
+      "id": "amazon",
+      "name": {
+        "zh-Hans": "Amazon Fire TV",
+        "en": "Amazon Fire TV"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "开启 ADB 调试",
+            "en": "Enable ADB debugging"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「我的 Fire TV」→「关于」。",
+              "en": "Open Settings → My Fire TV → About."
+            },
+            {
+              "zh-Hans": "选中设备名称并连续按确认键 7 次。",
+              "en": "Highlight the device name and press OK seven times."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启「ADB 调试」。",
+              "en": "Return to Developer Options and enable ADB debugging."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "已有开发者选项时可直接进入。",
+              "en": "If Developer Options is already available, open it directly."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "artel",
+      "name": {
+        "zh-Hans": "Artel",
+        "en": "Artel"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "43D1200B",
+            "en": "43D1200B"
+          },
+          "steps": [
+            {
+              "zh-Hans": "在「关于」中连续点击 Build 7 次。",
+              "en": "In About, select Build seven times."
+            },
+            {
+              "zh-Hans": "进入「开发者选项」，开启「Network debugging」。",
+              "en": "Open Developer options and enable Network debugging."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "仅开启 USB 调试可能无法连接。",
+              "en": "Enabling USB debugging alone may not allow a network connection."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/artel-43d1200b/README.md"
+      ]
+    },
+    {
+      "id": "ffalcon",
+      "name": {
+        "zh-Hans": "FFALCON / 雷鸟",
+        "en": "FFALCON"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "本机信息入口",
+            "en": "Device information menu"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「关于」→「本机信息」。",
+              "en": "Open Settings → About → Device information."
+            },
+            {
+              "zh-Hans": "在 1 秒内依次按遥控器 ↑ ↓ ← →。",
+              "en": "Within one second, press Up, Down, Left, then Right on the remote."
+            },
+            {
+              "zh-Hans": "进入底部出现的「更多」，开启「ADB」。",
+              "en": "Open More at the bottom and enable ADB."
+            }
+          ],
+          "notes": []
+        },
+        {
+          "id": "variation",
+          "title": {
+            "zh-Hans": "部分固件需要电脑授权",
+            "en": "Some firmware requires computer authorization"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "部分鹤 6 Ultra / Android 14 固件需要先用电脑完成有线授权，重启后可能需要重做。当前手机流程无法独立完成。",
+              "en": "Some Crane 6 Ultra / Android 14 firmware requires wired authorization from a computer, possibly again after a restart. This phone flow cannot complete that prerequisite."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/tcl-mt9655-cn.md"
+      ]
+    },
+    {
+      "id": "google",
+      "name": {
+        "zh-Hans": "Google / 谷歌",
+        "en": "Google"
+      },
+      "sections": [
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "variation",
+          "title": {
+            "zh-Hans": "Chromecast HD / 4K · Android TV 14",
+            "en": "Chromecast HD / 4K · Android TV 14"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "升级到 Android TV 14 后，请使用无线调试配对方式。",
+              "en": "After updating to Android TV 14, use wireless debugging with a pairing code."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md",
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
+      ]
+    },
+    {
+      "id": "haier",
+      "name": {
+        "zh-Hans": "Haier / 海尔",
+        "en": "Haier"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "信号源入口",
+            "en": "Source menu"
+          },
+          "steps": [
+            {
+              "zh-Hans": "按电视机身上的「信号源」键。",
+              "en": "Press the Source button on the TV itself."
+            },
+            {
+              "zh-Hans": "用遥控器依次按 ← ← ↑ →，进入工厂菜单。",
+              "en": "On the remote, press Left, Left, Up, then Right to open the factory menu."
+            },
+            {
+              "zh-Hans": "开启「ADB 调试开关」；部分机型位于 Other Option → adb debug。",
+              "en": "Enable the ADB debugging switch. On some models it is under Other Option → adb debug."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "只修改调试开关，不要操作工厂复位或其他参数。",
+              "en": "Change only the debugging switch. Do not use factory reset or change other parameters."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
+      ]
+    },
+    {
+      "id": "hisense",
+      "name": {
+        "zh-Hans": "Hisense / 海信",
+        "en": "Hisense"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "E3-Pro / 27GX 等已记录的 Android 机型",
+            "en": "Documented Android models: E3-Pro / 27GX"
+          },
+          "steps": [
+            {
+              "zh-Hans": "关闭「杜比全景声」，进入「声音」→「专业音响设置」→「声音平衡」。",
+              "en": "Turn off Dolby Atmos, then open Sound → Advanced sound settings → Balance."
+            },
+            {
+              "zh-Hans": "进入滑块后快速交替按「确认」和「菜单」，直到出现绿色 M。",
+              "en": "With the balance slider open, quickly alternate OK and Menu until a green M appears."
+            },
+            {
+              "zh-Hans": "按「菜单」→「选项」，将 To Fac 从 U 改为 M，然后重启电视。",
+              "en": "Press Menu → Options, change To Fac from U to M, then restart the TV."
+            },
+            {
+              "zh-Hans": "进入「全部设置」，连续按「菜单」打开原生设置。",
+              "en": "Open All settings and press Menu repeatedly to open Android settings."
+            },
+            {
+              "zh-Hans": "在「关于手机」中连续点击「版本号 / Build」，再到开发者选项开启 USB 调试和无线调试。",
+              "en": "In About phone, select Build repeatedly. Then enable USB debugging and Wireless debugging in Developer options."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "27GX 的声音平衡位于「全部设置」；原生设置从「关于」→「本机信息」连续按菜单进入。",
+              "en": "On 27GX, Balance is under All settings. Open Android settings by pressing Menu repeatedly in About → Device information."
+            },
+            {
+              "zh-Hans": "若重启后停在搜台页，按主页，再将开机信号源改为主页。",
+              "en": "If channel scanning appears after restarting, press Home and set the startup source to Home."
+            },
+            {
+              "zh-Hans": "只改 To Fac，不要修改其他工厂参数或反复重置电视。非 Android VIDAA 系统不适用。",
+              "en": "Change only To Fac. Do not alter other factory parameters or repeatedly reset the TV. This method does not apply to non-Android VIDAA systems."
+            }
+          ]
+        },
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "mooka",
+      "name": {
+        "zh-Hans": "MOOKA / 模卡",
+        "en": "MOOKA"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "信号源入口",
+            "en": "Source menu"
+          },
+          "steps": [
+            {
+              "zh-Hans": "按电视机身上的「信号源」键。",
+              "en": "Press the Source button on the TV itself."
+            },
+            {
+              "zh-Hans": "用遥控器依次按 ← ← ↑ →，进入工厂菜单。",
+              "en": "On the remote, press Left, Left, Up, then Right to open the factory menu."
+            },
+            {
+              "zh-Hans": "开启「ADB 调试开关」；部分机型位于 Other Option → adb debug。",
+              "en": "Enable the ADB debugging switch. On some models it is under Other Option → adb debug."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "只修改调试开关，不要操作工厂复位或其他参数。",
+              "en": "Change only the debugging switch. Do not use factory reset or change other parameters."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
+      ]
+    },
+    {
+      "id": "mtek",
+      "name": {
+        "zh-Hans": "Mtek",
+        "en": "Mtek"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "MK32CS1NB",
+            "en": "MK32CS1NB"
+          },
+          "steps": [
+            {
+              "zh-Hans": "先切换到 TV 或 HDMI 信号源。",
+              "en": "Switch to a TV or HDMI input first."
+            },
+            {
+              "zh-Hans": "按遥控器 MENU，再快速按 1 1 4 7。",
+              "en": "Press Menu on the remote, then quickly press 1, 1, 4, 7."
+            },
+            {
+              "zh-Hans": "进入 DEBUG → ADB ENABLE 并开启。",
+              "en": "Open DEBUG → ADB ENABLE and turn it on."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "若没有授权提示，请断电后重新开机；待机唤醒可能无效。",
+              "en": "If the authorization prompt does not appear, disconnect power and turn the TV on again. Waking from standby may not work."
+            },
+            {
+              "zh-Hans": "开启调试后可能暂时无法使用 USB 外设。只修改 ADB 开关。",
+              "en": "USB peripherals may be unavailable while debugging is enabled. Change only the ADB switch."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/docs/devices/mtek-mk32cs1nb.md"
+      ]
+    },
+    {
+      "id": "nokia",
+      "name": {
+        "zh-Hans": "Nokia / 诺基亚",
+        "en": "Nokia"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "Streaming Box 8000",
+            "en": "Streaming Box 8000"
+          },
+          "steps": [
+            {
+              "zh-Hans": "进入「开发者选项」，开启「Network debugging」。",
+              "en": "Open Developer options and enable Network debugging."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "部分固件重启后会关闭网络调试，需要重新开启。",
+              "en": "Some firmware turns network debugging off after a restart. Enable it again when needed."
+            }
+          ]
+        },
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/nokia-streaming-box-8000/README.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "oppo",
+      "name": {
+        "zh-Hans": "OPPO",
+        "en": "OPPO"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "开启 ADB 调试",
+            "en": "Enable ADB debugging"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」→「关于本机」→「设备型号」。",
+              "en": "Open Settings → System → About device → Device model."
+            },
+            {
+              "zh-Hans": "依次按 ↑ ↑ → →，再按确认；按页面提示继续，直到出现开发者选项。",
+              "en": "Press Up, Up, Right, Right, then OK. Follow the on-screen prompts until Developer options appears."
+            },
+            {
+              "zh-Hans": "返回「系统」→「开发者选项」，开启「USB 调试」或「ADB 调试」。",
+              "en": "Return to System → Developer options and enable USB debugging or ADB debugging."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "部分 K9 固件待机时会断网，请唤醒电视后再连接。",
+              "en": "Some K9 firmware disconnects from the network during standby. Wake the TV before connecting."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/oppo-coloros-tv.md",
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md"
+      ]
+    },
+    {
+      "id": "redmi",
+      "name": {
+        "zh-Hans": "Redmi / 红米",
+        "en": "Redmi"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "开启 ADB 调试",
+            "en": "Enable ADB debugging"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「关于」，选中「产品型号」并连续按确认键，直到进入开发者模式。",
+              "en": "Open Settings → About. Select Product model and press OK repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「设置」→「账号与安全」，开启「ADB 调试」和「安装未知来源的应用」。",
+              "en": "Return to Settings → Account & Security. Enable ADB debugging and installation from unknown sources."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "待机或重启后连不上时，检查调试开关，必要时关闭后重新开启。",
+              "en": "If connecting fails after standby or a restart, check the debugging switch and turn it off and on again if needed."
+            }
+          ]
+        },
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "sony",
+      "name": {
+        "zh-Hans": "Sony / 索尼",
+        "en": "Sony"
+      },
+      "sections": [
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "variation",
+          "title": {
+            "zh-Hans": "部分 BRAVIA Android 14 机型",
+            "en": "Some BRAVIA Android 14 models"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "部分机型需要无线配对，请按下方配对步骤操作。并非所有索尼电视都需要配对。",
+              "en": "Some models require wireless pairing. Follow the steps below if your TV offers it. Not every Sony TV requires pairing."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "super_general",
+      "name": {
+        "zh-Hans": "Super General",
+        "en": "Super General"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "CVTE TP.SK708D.PC821 · Android 9",
+            "en": "CVTE TP.SK708D.PC821 · Android 9"
+          },
+          "steps": [
+            {
+              "zh-Hans": "先切换到 TV 或 HDMI 信号源。",
+              "en": "Switch to a TV or HDMI input first."
+            },
+            {
+              "zh-Hans": "按遥控器 MENU，再快速按 1 1 4 7。",
+              "en": "Press Menu on the remote, then quickly press 1, 1, 4, 7."
+            },
+            {
+              "zh-Hans": "进入 DEBUG → ADB ENABLE 并开启。",
+              "en": "Open DEBUG → ADB ENABLE and turn it on."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此菜单不能从电视桌面直接打开。只修改 ADB 开关，不操作其他工厂选项。",
+              "en": "This menu cannot be opened directly from the launcher. Change only the ADB switch, not other factory options."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/super-general-cvte-t972/README.md"
+      ]
+    },
+    {
+      "id": "tcl",
+      "name": {
+        "zh-Hans": "TCL",
+        "en": "TCL"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "本机信息入口",
+            "en": "Device information menu"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「关于」→「本机信息」。",
+              "en": "Open Settings → About → Device information."
+            },
+            {
+              "zh-Hans": "在 1 秒内依次按遥控器 ↑ ↓ ← →。",
+              "en": "Within one second, press Up, Down, Left, then Right on the remote."
+            },
+            {
+              "zh-Hans": "进入底部出现的「更多」，开启「ADB」。",
+              "en": "Open More at the bottom and enable ADB."
+            }
+          ],
+          "notes": []
+        },
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "variation",
+          "title": {
+            "zh-Hans": "其他情况",
+            "en": "Other cases"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "65C7L 的入口为「系统」→「开发者选项」→ Wireless debugging。",
+              "en": "On 65C7L, use System → Developer options → Wireless debugging."
+            },
+            {
+              "zh-Hans": "部分 Q10M 等固件没有标准配对入口，某些固件需要先用电脑有线授权；当前手机流程可能无法完成。",
+              "en": "Some firmware, including reported Q10M cases, lacks a standard pairing page. Some versions require wired authorization from a computer first and cannot be set up using this phone flow alone."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/tcl-mt9655-cn.md",
+        "https://github.com/Gathin23/cleanyourtv/blob/b121838a666832fda3e7bddb702df9a6610d67aa/examples/tcl-65c7l-google-tv/README.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "vidda",
+      "name": {
+        "zh-Hans": "Vidda",
+        "en": "Vidda"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "E3-Pro / 27GX 等已记录的 Android 机型",
+            "en": "Documented Android models: E3-Pro / 27GX"
+          },
+          "steps": [
+            {
+              "zh-Hans": "关闭「杜比全景声」，进入「声音」→「专业音响设置」→「声音平衡」。",
+              "en": "Turn off Dolby Atmos, then open Sound → Advanced sound settings → Balance."
+            },
+            {
+              "zh-Hans": "进入滑块后快速交替按「确认」和「菜单」，直到出现绿色 M。",
+              "en": "With the balance slider open, quickly alternate OK and Menu until a green M appears."
+            },
+            {
+              "zh-Hans": "按「菜单」→「选项」，将 To Fac 从 U 改为 M，然后重启电视。",
+              "en": "Press Menu → Options, change To Fac from U to M, then restart the TV."
+            },
+            {
+              "zh-Hans": "进入「全部设置」，连续按「菜单」打开原生设置。",
+              "en": "Open All settings and press Menu repeatedly to open Android settings."
+            },
+            {
+              "zh-Hans": "在「关于手机」中连续点击「版本号 / Build」，再到开发者选项开启 USB 调试和无线调试。",
+              "en": "In About phone, select Build repeatedly. Then enable USB debugging and Wireless debugging in Developer options."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "27GX 的声音平衡位于「全部设置」；原生设置从「关于」→「本机信息」连续按菜单进入。",
+              "en": "On 27GX, Balance is under All settings. Open Android settings by pressing Menu repeatedly in About → Device information."
+            },
+            {
+              "zh-Hans": "若重启后停在搜台页，按主页，再将开机信号源改为主页。",
+              "en": "If channel scanning appears after restarting, press Home and set the startup source to Home."
+            },
+            {
+              "zh-Hans": "只改 To Fac，不要修改其他工厂参数或反复重置电视。非 Android VIDAA 系统不适用。",
+              "en": "Change only To Fac. Do not alter other factory parameters or repeatedly reset the TV. This method does not apply to non-Android VIDAA systems."
+            }
+          ]
+        },
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "name": {
+        "zh-Hans": "Xiaomi / 小米",
+        "en": "Xiaomi"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "开启 ADB 调试",
+            "en": "Enable ADB debugging"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「关于」，选中「产品型号」并连续按确认键，直到进入开发者模式。",
+              "en": "Open Settings → About. Select Product model and press OK repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「设置」→「账号与安全」，开启「ADB 调试」和「安装未知来源的应用」。",
+              "en": "Return to Settings → Account & Security. Enable ADB debugging and installation from unknown sources."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "待机或重启后连不上时，检查调试开关，必要时关闭后重新开启。",
+              "en": "If connecting fails after standby or a restart, check the debugging switch and turn it off and on again if needed."
+            }
+          ]
+        },
+        {
+          "id": "android",
+          "title": {
+            "zh-Hans": "Android TV / Google TV 界面",
+            "en": "Android TV / Google TV menus"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「设置」→「系统」或「设备偏好设置」→「关于」。",
+              "en": "Open Settings → System or Device Preferences → About."
+            },
+            {
+              "zh-Hans": "连续点击「内部版本号 / Build」，直到提示进入开发者模式。",
+              "en": "Select Build repeatedly until developer mode is enabled."
+            },
+            {
+              "zh-Hans": "返回「开发者选项」，开启电视提供的 USB 调试或网络调试。",
+              "en": "Return to Developer options and enable USB debugging or Network debugging, as available."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "此方法适用于对应系统菜单，不代表所有型号都提供相同开关。",
+              "en": "This guide applies to these system menus. Available debugging switches vary by model."
+            }
+          ]
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        },
+        {
+          "id": "missing",
+          "title": {
+            "zh-Hans": "找不到上述选项？",
+            "en": "Cannot find these options?"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "不同型号和系统版本的入口可能不同。请核对完整型号，搜索「电视型号 + 开启 ADB 调试」，查找对应方法。",
+              "en": "Menus vary by model and system version. Check your full model number and search for it together with “enable ADB debugging” to find the matching instructions."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": [
+        "https://github.com/pengchujin/aerial-tv/blob/904cdd3ddbcaf58c759b9176f80f4248a93c3be2/docs/devices/adb-by-brand.md",
+        "https://github.com/theothernt/AerialViews/blob/3e00eb59f674375f09740810b108876b12d04675/README.md"
+      ]
+    },
+    {
+      "id": "other",
+      "name": {
+        "zh-Hans": "其他品牌",
+        "en": "Other brands"
+      },
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "查找适合你电视的方法",
+            "en": "Find instructions for your TV"
+          },
+          "steps": [
+            {
+              "zh-Hans": "在电视设置中查看完整型号。",
+              "en": "Find the full model number in your TV settings."
+            },
+            {
+              "zh-Hans": "搜索「电视型号 + 开启 ADB 调试」，按对应说明开启。",
+              "en": "Search for the model number together with “enable ADB debugging” and follow the matching instructions."
+            }
+          ],
+          "notes": []
+        },
+        {
+          "id": "pair",
+          "title": {
+            "zh-Hans": "如果电视显示配对码入口",
+            "en": "If your TV offers pairing codes"
+          },
+          "steps": [
+            {
+              "zh-Hans": "打开「无线调试」→「使用配对码配对设备」。",
+              "en": "Open Wireless debugging → Pair device with pairing code."
+            },
+            {
+              "zh-Hans": "开启下方「配对设备」，再点「开始连接」，按提示填写电视显示的配对信息。",
+              "en": "Turn on Pair device below, then tap Start connecting and enter the pairing details shown on your TV."
+            }
+          ],
+          "notes": [
+            {
+              "zh-Hans": "投屏码不是 ADB 配对码。",
+              "en": "A screen-casting code is not an ADB pairing code."
+            }
+          ]
+        },
+        {
+          "id": "permission",
+          "title": {
+            "zh-Hans": "电视出现授权提示时",
+            "en": "When your TV asks for permission"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "确认是你正在使用的手机，勾选「始终允许此设备调试」（如有），再选择「允许」。",
+              "en": "Confirm the request is from your phone. Select Always allow debugging from this device if available, then choose Allow."
+            }
+          ]
+        }
+      ],
+      "sourceURLs": []
+    }
+  ]
+}

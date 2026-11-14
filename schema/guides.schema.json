@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "contentVersion",
+    "updatedAt",
+    "brands"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "contentVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "updatedAt": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "brands": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 200,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "sections",
+          "sourceURLs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{0,63}$"
+          },
+          "name": {
+            "$ref": "#/$defs/text"
+          },
+          "sections": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 30,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "title",
+                "steps",
+                "notes"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "title": {
+                  "$ref": "#/$defs/text"
+                },
+                "steps": {
+                  "type": "array",
+                  "maxItems": 30,
+                  "items": {
+                    "$ref": "#/$defs/text"
+                  }
+                },
+                "notes": {
+                  "type": "array",
+                  "maxItems": 30,
+                  "items": {
+                    "$ref": "#/$defs/text"
+                  }
+                }
+              }
+            }
+          },
+          "sourceURLs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^https://"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "zh-Hans"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000,
+          "pattern": "^[^<>]+$"
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000,
+          "pattern": "^[^<>]+$"
+        }
+      }
+    }
+  }
+}
