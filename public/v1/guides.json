@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 3,
+  "contentVersion": 4,
   "updatedAt": "2026-11-15",
   "brands": [
     {
@@ -895,7 +895,22 @@
         "zh-Hans": "其他品牌",
         "en": "Other brands"
       },
-      "sections": []
+      "sections": [
+        {
+          "id": "main",
+          "title": {
+            "zh-Hans": "开启 ADB 调试",
+            "en": "Enable ADB debugging"
+          },
+          "steps": [],
+          "notes": [
+            {
+              "zh-Hans": "暂未提供你的电视品牌的开启说明。你可以查阅电视的官方帮助，或联系品牌客服，了解是否支持 ADB 调试及开启方式。",
+              "en": "Setup instructions for your TV brand are not available yet. Check your TV’s official help resources or contact the manufacturer’s support team to find out whether ADB debugging is supported and how to enable it."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
